@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    font-family: cursive;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;	
+    background: #feffdf; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    width: 250px;
+    height: 250px;	
+    background: #dde0ab; 
+    border: 2px solid gainsboro;
+    margin: 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+.tool{
+    width: 100%;  
+    background: #feffdf; 
+    color: black;
+    padding: 5px;
+    border: 2px solid #dde0ab;
+    border-radius: 5px;
+    display: flex;
+    justify-content: end;
+}
+.tool i{
+    padding: 3px;
+    cursor: pointer;
+}
+textarea{
+    border: none;
+    margin:2px;
+    width: 98%;
+    height: 205px;
+    resize: none;
+    padding: 5px;
+    background: #dde0ab; 
+
+}
+textarea:focus{
+    border: 0;
+    outline: 0;
+}
+#addBtn{
+    font-size: 9px;
+    position: fixed;
+    right: 3px;
+    top: 3px;
+    border: 2px solid #dde0ab;
+    background-color: #e6e990;
+    border-radius: 3px;
+}
+#addBtn:hover{
+    background-color: #dde0ab;
+}
